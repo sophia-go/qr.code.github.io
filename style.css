@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    
+    margin:0;
+    box-sizing:border-box;
+}
+    
+body{
+    background: hsl(212, 45%, 89%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.box{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    position: fixed;
+    width:375px;
+    height: 508px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+}
+
+
+
+.picture{
+    z-index: 1;
+    height: 300px;
+    width: 350px;
+    position:absolute;
+    padding: 10px;
+    margin-top: -250px;
+    border-radius: 20px;
+    margin-left:30px;    
+}
+
+
+.box-container{
+    z-index: 1;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color:hsl(218, 44%, 22%);
+    margin-top: 150px;
+    margin-left: -10px;
+    position: absolute;
+}  
+
+.text-box{
+    z-index: 1;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(220, 15%, 55%);
+    margin-top: 300px;
+    margin-left: -10px;
+    position: absolute;
+}
+
+
+
+.footer{
+    margin-top: 600px;
+    color: rgb(35, 35, 75);
+    font-family: 'Outfit', sans-serif;
+}
+
+.footer a{
+    color: rgb(66, 66, 141);
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .box{
+        width: 324px;
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+    .picture {
+        width: 315px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .footer {
+        font-size: 13px;
+    }
+    
+}
+
+
+   
