@@ -30,7 +30,7 @@ body{
     z-index: 1;
     height: 300px;
     width: 350px;
-    position:absolute;
+    position:fixed;
     padding: 10px;
     margin-top: -250px;
     border-radius: 20px;
