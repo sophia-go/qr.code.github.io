@@ -45,7 +45,7 @@ body{
     color:hsl(218, 44%, 22%);
     margin-top: 150px;
     margin-left: -10px;
-    position: absolute;
+    position: fixed;
 }  
 
 .text-box{
@@ -55,7 +55,7 @@ body{
     color: hsl(220, 15%, 55%);
     margin-top: 300px;
     margin-left: -10px;
-    position: absolute;
+    position: fixed;
 }
 
 
